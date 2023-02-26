@@ -3,7 +3,7 @@ Flask app block ip user
 
 Assume we only want a specific IP can access your website: ALLOWED_IP
 
-```
+```python
 from flask import Flask, request
 
 app = Flask(__name__)
